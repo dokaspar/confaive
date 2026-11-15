@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Confaive - Connect Five with AI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>CONFAIVE <span>Connect Five with Artificial Intelligence</span></h1>
+
+  <div id="wrap">
+    <canvas id="board" width="320" height="200"></canvas>
+
+    <div id="panel">
+      <div id="status">Your turn</div>
+
+      <label>Mode
+        <select id="mode">
+          <option value="pvc">You vs Computer</option>
+          <option value="pvp">Two Players</option>
+          <option value="cvc">Computer vs Computer</option>
+        </select>
+      </label>
+
+      <label>Difficulty
+        <select id="difficulty">
+          <option value="100" selected>Hard</option>
+          <option value="60">Medium</option>
+          <option value="20">Easy</option>
+        </select>
+      </label>
+
+      <label>Strategy
+        <select id="strategy">
+          <option value="0">Balanced</option>
+          <option value="1">Defensive</option>
+          <option value="2" selected>Offensive</option>
+        </select>
+      </label>
+
+      <button id="newGame">New Game</button>
+      <button id="undo">Undo</button>
+    </div>
+  </div>
+
+  <p class="note">
+    Originally written in QBasic in 1999. This is a sound-free browser port of the
+    original board and AI logic. <a href="https://github.com/dokaspar/confaive">Source</a>
+  </p>
+
+  <script src="game.js"></script>
+</body>
+</html>
