@@ -10,7 +10,12 @@ rely on third-party executables, which makes it also more difficult to run the p
 
 ![screenshot](qbasic/screenshot.png)
 
-## How to run the game
+## Play in your browser
+
+A sound-free JavaScript/HTML5 port of the board and AI logic lives in [`docs/`](docs) and is playable
+directly on GitHub Pages (enable it in **Settings → Pages → Deploy from branch → `main` / `docs`).
+
+## How to run the original 1999 QBasic version
 
 Go to one of the historic websites where the game still exists in a playable form:
 - [Internet Archive](https://archive.org/details/Confaive)
